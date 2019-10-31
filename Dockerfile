@@ -15,3 +15,4 @@ RUN source ~/.bashrc && perlbrew install perl-5.28.0 && perlbrew switch perl-5.2
 # not work as bash_profile on docker or root user
 RUN source ~/.bashrc && cpan Carton
 
+RUN amazon-linux-extras install nginx1.12
